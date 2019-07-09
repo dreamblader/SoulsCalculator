@@ -9,5 +9,6 @@ class Character:
     @classmethod
     def funcname(parameter_list):
         #stuff here
-        return null
+        result = 0
+        return result
         
