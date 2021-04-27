@@ -1,10 +1,11 @@
 # MAIN CALCULATOR WINDOW!
 from tkinter import *
 
-def main():
+def start():
     window = Tk()
+    canvas = Canvas(window, width=8000, height=600)
     window.title("SoulsCalculator")
-    Label(window, text='TEST').pack()
+    Label(window, text='TEST')
     window.mainloop()
 
 #MAIN IDEA: TABS >>> GUI CLASS WITH MENU + CONTENT (menu change content)
